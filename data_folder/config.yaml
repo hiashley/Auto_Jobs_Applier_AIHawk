@@ -16,8 +16,8 @@ job_types:
   part_time: false
   temporary: true
   internship: false
-  other: false
-  volunteer: true
+  other: true
+  volunteer: false
 
 date:
   all_time: false
@@ -26,30 +26,37 @@ date:
   24_hours: true
 
 positions:
-  - Software engineer
+  - Software Engineer
+  - Frontend Developer
+  - Web Developer
+  - Software Developer
+  - Full Stack Developer
+  - Front End Developer
 
 locations:
-  - Germany
+  - United States
+  - California
+  - Los Angeles
+  - Orange County
 
-apply_once_at_company: true
+apply_once_at_company: false
 
-distance: 100
+distance: 50
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  - Phoenix Recruitment
+  - Altametrics
 
 title_blacklist:
-  - word1
-  - word2
 
 location_blacklist:
-  - Brazil
+  - India
+  - Europe
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 1000
 
-llm_model_type: openai
-llm_model: 'gpt-4o-mini'
-# llm_api_url: 'https://api.pawan.krd/cosmosrp/v1'
+llm_model_type: gemini
+llm_model: 'gemini-1.5-flash'
+# llm_api_url: 'https://aistudio.google.com/app/apikey'
